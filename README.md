@@ -1,5 +1,9 @@
 # Face-mask-Detection
 
+![](img/demo.png)
+
+![](img/demo2.png)
+
 Input size of the model is 260x260, the backbone network only has 8 conv layers. The total model has only 24 layers with the  location and classification layers counted.
 
 SSD anchor configurtion is show bellow:
@@ -25,4 +29,7 @@ python infer.py --img-mode 0 --video-path /path/to/video
 python infer.py --img-mode 0 --video-path 0
 ```
 
+### Testset PR curve
+
+![](img/pr_curve.png)
 
